@@ -21,7 +21,7 @@ function Footer() {
         </div>
         <div>
            <h1>Source Code</h1> 
-           <a href=''>
+           <a href='https://github.com/simran-24/React_Projects/tree/main/shopping-site' target='_blank'>
             <RxGithubLogo className='text-2xl mt-1 mr-auto ml-auto'/>
             </a> 
         </div>
