@@ -9,8 +9,7 @@ function Block({src,title,price,alt,id,removeData})
                 <h3 className=" text-lg font-bold text-violet-900">{title}</h3>
                 <p className="text-2 font-medium text-rose-400"> Price : Rs. {price}/-</p>
             </div>
-            <button c 
-            lassName="w-20 h-10 mr-5 mt-2 rounded-lg bg-green-500 text-white text-lg" onClick={()=>{removeData(id)}} >Remove</button>
+            <button className="w-20 h-10 mr-5 mt-2 rounded-lg bg-green-500 text-white text-lg" onClick={()=>{removeData(id)}} >Remove</button>
 
         </div>
         

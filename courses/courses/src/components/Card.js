@@ -5,7 +5,6 @@ import { toast } from 'react-toastify';
 function Card(props) {
 
   const Course=props.data;
-  console.log(Course)
   
   const[like,setLike] = useState(false)
   function likeHandler()
